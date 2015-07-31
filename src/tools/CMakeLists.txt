@@ -1,0 +1,22 @@
+set(SOURCE
+    ${SOURCE}
+    ${CMAKE_CURRENT_SOURCE_DIR}/common.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/com_ptr.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/help_funcs.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/handle_ptr.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/window_hook.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/func_hook.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/ini_file.cpp
+    PARENT_SCOPE
+)
+set(HEADERS
+    ${HEADERS}
+    ${CMAKE_CURRENT_SOURCE_DIR}/common.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/com_ptr.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/help_funcs.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/handle_ptr.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/window_hook.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/func_hook.hpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/ini_file.hpp
+    PARENT_SCOPE
+)
